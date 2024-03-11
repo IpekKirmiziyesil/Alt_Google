@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="audio-controls">
+      <audio controls autoplay>
+        <source src="/public/PANTERA.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+      <div class="audio-title">
+        <h5>Pantera - Bystander</h5>
+      </div>
+    </div>
+    <div id="starfield"></div>
+    <header class="header">
+      <nav class="navbar">
+        <a href="image.html">Image</a>
+        <a href="advanced.html">Advanced</a>
+      </nav>
+    </header>
+    <form action="https://google.com/search">
+      <h1 class="title">Google</h1>
+      <h4 class="subtitle-techno">Techno</h4>
+      <div class="text-input">
+        <input type="text" name="q" placeholder="Type here" />
+        <img width="24" src="public/magnifying-glass.svg" alt="yallah" />
+      </div>
+      <div class="search-container">
+        <input type="submit" class="search-button" value="Google Search" />
+        <input
+          type="submit"
+          class="search-button"
+          name="btnI"
+          value="I'm Feeling Lucky"
+        />
+      </div>
+    </form>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="module" src="animations/starfield.js"></script>
+  </body>
+</html>
